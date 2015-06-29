@@ -59,6 +59,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Register tasks here.
-  grunt.registerTask('default', ['sass', 'concat', 'watch']);
+  grunt.registerTask('default', ['sass', 'concat']);
 
 };
